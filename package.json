@@ -1,0 +1,14 @@
+{
+  "name": "project2-secure-software-design",
+  "version": "1.0.0",
+  "description": "Demonstration of XSS, eval abuse, and mitigations in JavaScript web applications",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "helmet": "^8.1.0"
+  }
+}
